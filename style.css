@@ -4,10 +4,11 @@
 .page {
 	width : 296.4mm;
 	height : 209.5mm;
-	padding: 10mm 10mm;
+	padding: 20px 20px;
 	column-count: 3;
 	-webkit-column-count: 3;
-  font-size: 3.5mm;
+  font-size: 13px;
+  line-height: 15px;
 }
 
 .page h1 {
@@ -66,21 +67,61 @@
 }
 .page table td {
   align-content: center;
-  padding: 1mm 2mm;
+  padding: 2px 4px;
 }
 
 .papier_cuisson {
-  margin:2mm;
+  margin: 4px;
   border: solid 1px chocolate;
-  padding: 2mm;
+  padding: 4px;
+  position: relative;
 }
 .papier_cuisson h2 {
   font-variant: small-caps;
   text-align: center;
+  font-size: 2em;
+}
+.papier_cuisson tr td {
+  padding: 3px;
+}
+.papier_cuisson .entitled {
+  margin-bottom: 12px;
+}
+.papier_cuisson .entitled td {
+  padding: 5px;
 }
 .papier_cuisson .entitled td:nth-child(1) {
-  width: 24mm;
+  width: 90px;
 }
 .papier_cuisson .entitled td:nth-child(2) {
   border-bottom: solid 1px chocolate;
 }
+.papier_cuisson .saveurs tr:nth-child(odd) td:nth-child(2) {
+  font-size: 0.9em;
+}
+.papier_cuisson .saveurs tr:nth-child(odd) td {
+  padding: 12px 0 3px 0;
+}
+.papier_cuisson .saveurs tr:nth-child(even) td,
+.papier_cuisson .garniture tr:nth-child(even) td {
+  font-size: 1.3em;
+  padding: 7px;
+}
+.papier_cuisson .garniture tr:nth-child(odd) td {
+  color: #ddd;
+  font-weight: bold;
+  border-bottom: solid 1px chocolate;
+  padding: 5px 0;
+}
+.papier_cuisson .options tr:nth-child(1) td {
+  padding-top: 34px;
+}
+.papier_cuisson .options tr:nth-child(2) td {
+  padding-bottom: 30px;
+}
+.papier_cuisson .options tr td {
+  background: white;
+  padding: 7px;
+  font-size: 1.2em;
+}
+
