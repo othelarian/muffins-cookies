@@ -9,6 +9,7 @@
 	-webkit-column-count: 3;
   font-size: 13px;
   line-height: 15px;
+  position: relative;
 }
 
 .page h1 {
@@ -21,7 +22,9 @@
   border-bottom: solid 0.5mm #e73;
 }
 .page h3 {
+  margin: 18px auto;
   margin-left: 10mm;
+  background: blanchedAlmond;
 }
 
 .subtitle {
@@ -125,3 +128,11 @@
   font-size: 1.2em;
 }
 
+
+.regles {
+  box-sizing: border-box;
+  margin: 7px auto;
+  padding: 7px;
+  background: blanchedalmond;
+  border: solid 1px chocolate;
+}
